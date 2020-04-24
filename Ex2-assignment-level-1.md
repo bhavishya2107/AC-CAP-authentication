@@ -27,8 +27,11 @@ In this topic, you have to build a small web API from scratch for the following 
 
 Here write the psuedo code you would follow to build the above API.
 
-1.Create models for student,mentor and todo <br/>
-2.Install all the neccessary packages <br/>
-3.Seed mentors data into db <br/>
-4.GET request to see all the task <br/>
-5.POST request to login,signup mentors and students <br/>
+1. Create models for student,mentor and todo <br/>
+2. Install all the neccessary packages <br/>
+3. Seed mentors data into db <br/>
+4. GET request to see all the task <br/>
+5. POST request to login,signup mentors and students <br/>
+6. POST route for creating a todo 
+7. Create a middleware which checks whether the todo is being created by the mentor or not <br/>
+8. Show a error response if a student is trying to access the route for creating todo.
