@@ -26,3 +26,9 @@ In this topic, you have to build a small web API from scratch for the following 
 ## BLOCK-writeTextAnswer
 
 Here write the psuedo code you would follow to build the above API.
+
+1.Create models for student,mentor and todo
+2.Install all the neccessary packages
+3.Seed mentors data into db
+4.GET request to see all the task
+5.POST request to login,signup mentors and students
